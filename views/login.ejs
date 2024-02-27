@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <form class="form" method="post" autocomplete="on">
+          <input id="loginUsername" type="text" placeholder="Username" />
+          <input id="loginPassword" type="text" placeholder="Password" />
+          <button id="loginSubmit" type="submit">Submit</button>
+        </form>
+        <p>
+          Don't have an account yet?
+          <span><a href="/signup">signup</a></span>
+        </p>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/login.js"></script>
+  </body>
+</html>
